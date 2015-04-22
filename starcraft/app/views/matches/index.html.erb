@@ -1,0 +1,8 @@
+
+<h1>Matches</h1>
+
+<ul>
+<% @matches.each do |match| %>
+  <li>  Winner winner chicken dinner: <%= match.winner.name %></li>
+<% end %>
+</ul>
